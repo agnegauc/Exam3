@@ -7,7 +7,7 @@ const assignGroup = async (event) => {
 
   if (form.class === undefined) {
     const select = document.body.querySelector("#existing-groups");
-    const selectedGroup = +select.options[select.selectedIndex].value; // skaičius or new-group
+    const selectedGroup = +select.options[select.selectedIndex].value;
 
     if (typeof selectedGroup === "number" && !Number.isNaN(selectedGroup)) {
       const accessToken = localStorage.getItem("token");

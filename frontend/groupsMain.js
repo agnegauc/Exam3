@@ -9,6 +9,8 @@ const group = document.body.querySelector("#group-cards-container");
 groupIdForm.addEventListener("submit", assignGroup);
 
 group.addEventListener("click", (event) => {
+  event.preventDefault();
+
   const id = event.target.id;
 
   getGroupsBills(id);
