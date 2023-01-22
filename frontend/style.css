@@ -1,0 +1,143 @@
+body {
+    font-size: 11pt;
+}
+
+header {
+    text-align: center;
+    padding: 50px;
+}
+
+img {
+    width: 7%;
+}
+
+#form-section {
+    padding: 50px;
+    width: 500px;
+    margin: 0 auto;
+}
+
+form > input {
+    display: block;
+    box-sizing: border-box;
+    width: 100%;
+    border: 1px solid rgb(226, 223, 223);
+    padding: 10px;
+    margin: 2px 0 20px 0;
+}
+
+form > select {
+    display: block;
+    box-sizing: border-box;
+    width: 100%;
+    border: 1px solid rgb(226, 223, 223);
+    padding: 10px;
+    margin: 2px 0 20px 0;
+}
+
+button {
+    padding: 7px 15px;
+    border-radius: 0;
+    border: 2px solid rgb(88, 88, 88);
+    background-color: white;
+    font-weight: 600;
+}
+
+h1, h3 {
+    font-size: 16pt;
+}
+
+h4 {
+    text-align: center;
+    font-weight: 300;
+    font-size: 16pt;
+    padding-bottom: 20px;
+}
+
+h2 {
+    color: gray;
+    text-transform: uppercase;
+    font-weight: 100;
+    font-variant-caps: all-small-caps;
+    letter-spacing: 1pt;
+}
+
+div.group-card > h3 {
+    margin: 0;
+}
+
+p {
+    margin: 0;
+    padding-top: 10px;
+    color: rgb(145, 145, 145);
+}
+
+a {
+    display: block;
+    padding: 10px 0;
+    text-decoration: none;
+    color: black;
+}
+
+a:hover {
+    color: gray;
+}
+
+#group-cards-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 3rem;
+}
+
+#list-section {
+    margin: 0 50px;
+}
+
+.group-card {
+    width: 10rem;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    border: 2px solid whitesmoke;
+    border-radius: 0.4rem;
+    height: 7rem;
+    align-items: center;
+    justify-content: center;
+}
+
+.group-card:hover {
+    cursor: pointer;
+    background-color: rgb(243, 243, 243);
+}
+
+table {
+    display: table;
+    /* overflow: hidden; */
+    width: 100%;
+    border-collapse: collapse;
+}
+
+tbody > tr:nth-child(odd) {
+    background-color: rgb(243, 242, 242);
+}
+
+th,
+td {
+    padding: 10px;
+    text-align: left;
+    font-size: 10pt;
+    color: rgb(50, 50, 50);
+}
+
+#main-page-section > a {
+    text-align: center;
+    color: rgb(94, 94, 94);
+    border: 1px solid rgb(185, 185, 185);
+    border-radius: 3px;
+    width: 200px;
+    margin: 20px auto;
+}
+
+#main-page-section > a:hover {
+    background-color: rgb(232, 232, 232);
+}

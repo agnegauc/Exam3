@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Groups</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+        integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <header>
+        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/53/Google_%22G%22_Logo.svg/480px-Google_%22G%22_Logo.svg.png" alt="Google logo">
+        <h1>Split Bill</h1>
+    </header>
+    <section id="list-section">
+        <h4>Select Your Group</h3>
+        <div id="group-cards-container"></div>
+    </section>
+    <section id="form-section">
+        <h3>Add group</h3>
+        <form id="group-id-form">
+            <label for="group-id">Group ID:</label>
+            <select name="group-id" id="existing-groups">
+                <option value="new-group">Create new group</option>
+            </select>
+
+            <button type="submit">Add</button>
+        </form>
+    </section>
+    
+    <script type="module" src="./groupsMain.js"></script>
+    
+</body>
+</html>
