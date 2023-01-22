@@ -35,7 +35,6 @@ router.post("/", async (req, res) => {
 
     await con.end();
 
-    // Jei nėra nė vieno vartotojo:
     if (userByEmail.length === 0) {
       return res
         .status(400)
